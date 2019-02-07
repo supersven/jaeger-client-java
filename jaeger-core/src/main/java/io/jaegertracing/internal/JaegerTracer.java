@@ -619,7 +619,7 @@ public class JaegerTracer implements Tracer, Closeable {
       return this;
     }
 
-    public Builder withManualShutdown(){
+    public Builder withManualShutdown() {
       this.manualShutdown = true;
       return this;
     }
